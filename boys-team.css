@@ -1,0 +1,340 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+	@import url(https://www.littlesnippets.net/css/codepen-result.css);
+	@import url(https://fonts.googleapis.com/css?family=Open+sans);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+.snip1515 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 14px;
+  box-shadow: none !important;
+}
+
+.snip1515 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1515 .profile-image {
+  display: inline-block;
+  width: 80%;
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+  border: 2px solid #e8b563;
+}
+
+.snip1515 .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1515 figcaption {
+  width: 100%;
+  background-color: #F2F2F2;
+  color: #555;
+  padding: 125px 25px 25px;
+  margin-top: -100px;
+  display: inline-block;
+}
+
+.snip1515 h3,
+.snip1515 h4,
+.snip1515 p {
+  margin: 0 0 5px;
+}
+
+.snip1515 h3 {
+  font-weight: 600;
+}
+
+.snip1515 h4 {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.snip1515 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 35px;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+.flexcardNumber:hover, a:hover {
+  opacity: 0.7;
+}
+.flexcardNumber {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin: 10px 0px;
+  border-radius: 0px 50px 50px 0px;
+  font-family: 'Jost', sans-serif;
+  color: #222;
+  font-weight: bold;
+  font-size: 23px;
+  position: relative;
+  opacity: .9;
+}
+
+.flexcardNumber:before {
+  content: '';
+  width: 34px;
+  height: 90px;
+  position: absolute;
+  left: -33px;
+  top: 0px;
+  border-radius: 50px 0px 0px 50px;
+  z-index: -1;
+ background: #95B7A2; background: -webkit-linear-gradient(bottom, #95B7A2, #AED2BC); 
+  background: -moz-linear-gradient(bottom, #95B7A2, #AED2BC);
+ background: linear-gradient(to top, #95B7A2, #AED2BC);
+}
+
+.flexcardNumber:after {
+  content: '';
+  width: 25px;
+  height: 40px;
+  position: absolute;
+  left: -25px;
+  bottom: -40px;
+  border-radius: 50px 0px 0px 50px;
+  z-index: -1;
+}
+
+/* ORANGE CARD */
+
+.flexcardOrange {
+  background: #fdf8f3;
+ box-shadow: 4px -2px 1px #F68404;
+}
+
+.flexcardNumberOrange {
+  background: #FDFFFE;
+  background: -webkit-linear-gradient(right, #FDFFFE, #F68404);
+  background: -moz-linear-gradient(right, #FDFFFE, #F68404);
+  background: linear-gradient(to left, #FDFFFE, #F68404);
+  box-shadow: 0px 2px 2px #F68404;
+}
+
+.flexcardNumberOrange:before {
+  background: #F68404;
+}
+
+.flexcardNumberOrange:after {
+  background: #d06f02;
+}
+
+/* BLUE CARD */
+
+.flexcardBlue {
+  background: #f7ffff;
+ box-shadow: 4px 8px 1px #92E8EB;
+}
+
+.flexcardNumberBlue {
+  background: #FDFFFE;
+  background: -webkit-linear-gradient(right, #FDFFFE, #92E8EB);
+  background: -moz-linear-gradient(right, #FDFFFE, #92E8EB);
+  background: linear-gradient(to left, #FDFFFE, #92E8EB);
+  box-shadow: 0px 2px 2px #92E8EB;
+}
+
+.flexcardNumberBlue:before {
+  background: #92E8EB;
+}
+
+.flexcardNumberBlue:after {
+  background: #71bdbf;
+}
+/* PİNK CARD */
+
+.flexcardPink {
+  background: #fffafd;
+  position: relative;
+    box-shadow: 2px 2px 1px #F34EAE ;
+    border-radius: 20px 20px 0px 20px;
+}
+.flexcardPink:before {
+    content: '';
+    width: 0px;
+    height: 30px;
+    /* background: red; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 90px solid #F34EAE;
+}
+.flexcardNumberPink {
+  background: #FDFFFE;
+  background: -webkit-linear-gradient(right, #FDFFFE, #F34EAE);
+  background: -moz-linear-gradient(right, #FDFFFE, #F34EAE);
+  background: linear-gradient(to left, #FDFFFE, #F34EAE);
+  box-shadow: 0px 2px 2px #F34EAE;
+}
+
+.flexcardNumberPink:before {
+  background: #F34EAE;
+}
+
+.flexcardNumberPink:after {
+  background: #d24095;
+}
+
+/* h4 Control */
+.h4-control {
+  background: black;
+  background: -webkit-linear-gradient(right, #222, black);
+  background: -moz-linear-gradient(right, #222, black);
+  background: linear-gradient(to left, #222, black);
+  position: relative;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+#teame-cv {
+  color:#999;
+  font-size:36px;
+  font-weight:bold;
+  padding-top:20px;  
+  width:100%;
+  display:block;
+  text-align: center;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#42c58a;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:#DC143C;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
